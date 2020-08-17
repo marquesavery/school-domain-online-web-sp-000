@@ -27,7 +27,7 @@ class School
 #    Hash[@roster.sort
     @roster.collect do |k, v|
       v.sort
-
+      k.sort
     end
   end
 end
