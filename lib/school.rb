@@ -27,5 +27,6 @@ class School
     @roster.collect do |k, v|
       @roster[k] = v.sort
     end
+    Hash[@roster.sort]
   end
 end
