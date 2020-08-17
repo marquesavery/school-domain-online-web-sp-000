@@ -26,7 +26,7 @@ class School
 #    @roster.sort {|a, b| a <=> b }
 #    Hash[@roster.sort]
     @roster.collect do |k, v|
-      @roster.values? = v.sort
+      @roster.values = v.sort
     end
   end
 end
