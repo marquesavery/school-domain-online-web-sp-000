@@ -24,9 +24,6 @@ class School
 
   def sort
 #    @roster.sort {|a, b| a <=> b }
-#    Hash[@roster.sort]
-    @roster.collect do |k, v|
-      v.sort
-    end
+    Hash[@roster.sort]
   end
 end
